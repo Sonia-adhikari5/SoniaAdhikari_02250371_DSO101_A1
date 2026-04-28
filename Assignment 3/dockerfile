@@ -1,0 +1,23 @@
+# Use Node.js LTS version (lightweight Alpine Linux base)
+FROM node:20-alpine
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy package.json and package-lock.json first (for caching)
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy all your source files into the container
+COPY . .
+
+# Run tests to make sure everything works
+RUN npm test
+
+# Tell Docker this app listens on port 3000
+EXPOSE 3000
+
+# Command to start the app
+CMD ["npm", "start"]
