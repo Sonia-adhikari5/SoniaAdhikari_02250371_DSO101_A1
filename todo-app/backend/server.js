@@ -10,8 +10,12 @@ app.use(express.json());
 
 let tasks = [];
 
-app.get("/tasks", (req, res) => {
-  res.json(tasks);
+app.get("/todos", (req, res) => {
+  res.json([]);
+});
+
+app.get("/", (req, res) => {
+  res.send("Backend is running");
 });
 
 app.post("/tasks", (req, res) => {

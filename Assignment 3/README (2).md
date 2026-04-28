@@ -533,48 +533,21 @@ Troubleshooting issues across multiple services (GitHub → DockerHub → Render
 This assignment provided hands-on experience with every phase of the DevOps lifecycle: planning, coding, testing (automated), building, packaging, releasing, deploying, and monitoring. Understanding how all these phases connect gives a holistic view of modern software delivery.
 
 ---
+### screenshots :
+Screenshots have been included in Assignment3/screenshots
 
-## Screenshots
-
-> **Note:** Replace the placeholder descriptions below with actual screenshots from your implementation.
-
-### Screenshot 1: Successful GitHub Actions Workflow
-*[Insert screenshot of the GitHub Actions tab showing all steps with green checkmarks]*
-
-The screenshot shows the `Build and Deploy to DockerHub and Render` workflow with all four steps completing successfully:
-- ✅ Checkout Repository
-- ✅ Login to DockerHub
-- ✅ Build and Push Docker Image
-- ✅ Trigger Render Deployment
-
-### Screenshot 2: DockerHub Repository with Pushed Image
-*[Insert screenshot of your DockerHub repository showing the todo-app image with the latest tag and updated push timestamp]*
-
-The screenshot confirms that the Docker image `yourusername/todo-app:latest` was successfully pushed to DockerHub as part of the automated pipeline.
-
-### Screenshot 3: Render.com Successful Deployment
-*[Insert screenshot of the Render.com dashboard showing the service as "Live" with deployment logs]*
-
-The screenshot shows the Render.com web service in the "Live" state with a recent deployment triggered by the GitHub Actions webhook call.
-
-### Screenshot 4: Live Application
-*[Insert screenshot of the To-Do application running in a browser at the Render.com URL]*
-
----
 
 ## Live Deployment Link
 
-🌐 **Application URL:** `https://todo-app-YOUR-RENDER-URL.onrender.com`
+ **Application URL:** `https://fe-todo-02250371-1.onrender.com`
 
-> Replace the above URL with your actual Render.com deployment URL.
 
 ---
 
 ## GitHub Repository
 
-📁 **Repository URL:** `https://github.com/YOUR-USERNAME/todo-app`
+ **Repository URL:** `https://github.com/Sonia-adhikari5/SoniaAdhikari_02250371_DSO101_A1.git`
 
-> Replace the above URL with your actual GitHub repository URL.
 
 ---
 

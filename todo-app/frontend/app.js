@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ padding: "20px" }}>
       <h1>Todo App</h1>
       <input onChange={(e) => setTask(e.target.value)} />
       <button onClick={addTask}>Add</button>
