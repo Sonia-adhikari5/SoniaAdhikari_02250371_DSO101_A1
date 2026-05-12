@@ -1,31 +1,3 @@
-services:
-  - type: web
-    name: be-todo-api
-    env: docker
-    plan: free
-    dockerfilePath: ./backend/Dockerfile
-    dockerContext: ./backend
-    envVars:
-      - key: DATABASE_URL
-        value: postgresql://my_todo_db_w1bg_user:D9uPOY67mVbp59BK1Ku4tSVoraaS5FCe@dpg-d81kcdjbc2fs7381mcm0-a.singapore-postgres.render.com/my_todo_db_w1bg
-      - key: PORT
-        value: 5000
-
-  - type: web
-    name: fe-todo
-    env: docker
-    plan: free
-    dockerfilePath: ./frontend/Dockerfile
-    dockerContext: ./frontend
-    envVars:
-      - key: REACT_APP_API_URL
-        value: https://be-todo-api.onrender.com
-
-databases:
-  - name: my-todo-db
-    plan: free
-    databaseName: tododb
-    user: todouser
 
     services:
   # Backend Service
@@ -45,7 +17,7 @@ databases:
         value: production
 
   # Frontend Service
-  - type: web
+    type: web
     name: fe-todo
     env: docker
     plan: free
