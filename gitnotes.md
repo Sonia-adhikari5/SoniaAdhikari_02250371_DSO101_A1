@@ -54,7 +54,7 @@ docker info            # Display system-wide Docker info
 docker help            # List available commands and usage
 ```
 
-<img src="images/docker_version.png" alt=" ">
+<img src="Images/docker_version.png" alt=" ">
 
 ---
 
@@ -67,8 +67,8 @@ This lab consists of 17 questions. Answers are documented below according to the
 1. 25.0.5
 2. 0
 3. 9
-4. <img src="images/lab1_4.png" alt=" ">
-5. <img src="images/lab1_5.png" alt=" ">
+4. <img src="Images/lab1_4.png" alt=" ">
+5. <img src="Images/lab1_5.png" alt=" ">
 6. 0
 7. 4
 8. 6
@@ -76,14 +76,14 @@ This lab consists of 17 questions. Answers are documented below according to the
 10. awesome_northcut
 11. 866
 12. Exited
-13. <img src="images/lab1_13.png" alt=" ">
-14. <img src="images/lab1_14.png" alt=" ">
-15. <img src="images/lab1_15.png" alt=" ">
-16. <img src="images/lab1_16.png" alt=" ">
+13. <img src="Images/lab1_13.png" alt=" ">
+14. <img src="Images/lab1_14.png" alt=" ">
+15. <img src="Images/lab1_15.png" alt=" ">
+16. <img src="Images/lab1_16.png" alt=" ">
 
 ### Lab Completion
 
-<img src="images/labsuccess1.png" alt=" ">
+<img src="Images/labsuccess1.png" alt=" ">
 
 ---
 
@@ -93,7 +93,7 @@ This lab consists of 17 questions. Answers are documented below according to the
 
 A Docker image is a read-only template used as the foundation for creating containers. Think of it as a snapshot of your application and its environment, frozen in time and ready to be deployed.
 
-<img src="images/images.png" alt=" ">
+<img src="Images/images.png" alt=" ">
 
 ---
 
@@ -101,7 +101,7 @@ A Docker image is a read-only template used as the foundation for creating conta
 
 A container is the live, running instance of a Docker image. Once you spin up a container from an image, it becomes an active, isolated process running your application.
 
-<img src="images/containers.png" alt=" ">
+<img src="Images/containers.png" alt=" ">
 
 ---
 
@@ -191,18 +191,18 @@ Answers:
 5. /opt
 6. python app.py
 7. 8080
-8. <img src="images/lab2_8.png" alt=" ">
+8. <img src="Images/lab2_8.png" alt=" ">
 9. `docker run -p 8282:8080 webapp-color`
 10. -
 11. -
 12. 920 MB
-13. <img src="images/lab2_13.png" alt=" ">
-14. <img src="images/lab2_14.png" alt=" ">
-15. <img src="images/lab2_15.png" alt=" ">
+13. <img src="Images/lab2_13.png" alt=" ">
+14. <img src="Images/lab2_14.png" alt=" ">
+15. <img src="Images/lab2_15.png" alt=" ">
 
 ### Lab Completion
 
-<img src="images/labsuccess2.png" alt=" ">
+<img src="Images/labsuccess2.png" alt=" ">
 
 ---
 
@@ -212,7 +212,7 @@ Answers:
 
 A Dockerfile is essentially a recipe — a plain text script containing a sequence of instructions that Docker follows step by step to build a custom image. Every line in a Dockerfile adds a new layer to the image.
 
-<img src="images/dockerfile.png" alt=" ">
+<img src="Images/dockerfile.png" alt=" ">
 
 ---
 
