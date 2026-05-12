@@ -24,3 +24,15 @@ services:
     envVars:
       - key: REACT_APP_API_URL
         value: https://fe-todo-02250371-2.onrender.com
+ # Frontend Service
+  - type: web
+    name: fe-todo
+    env: docker
+    plan: free
+    rootDir: A1
+    dockerfilePath: frontend/Dockerfile
+    dockerContext: frontend
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://be-todo-api.onrender.com
+        
